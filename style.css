@@ -1,0 +1,99 @@
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+section{
+    text-align: center;
+}
+
+#profile{
+    padding-top: 60px;
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.book{
+    height: 300px;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Welcome{
+    position: absolute;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    background: linear-gradient(lightblue 0%, blue 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+#manu{
+    position: fixed;
+    top: 0px;
+    font-family: sans-serif;
+    cursor: pointer;
+    z-index: 10;
+    margin-top: 10px;
+    background: black;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.list{
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+    font-family: fantasy; 
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.list:hover{
+    background-color: lightblue;
+}
+
+#About{
+    margin-top: 700px
+}
+
+#My Work{
+    margin-bottom: 700px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 40;
+    font-weight: 300;
+    font-family: Langar;
+    line-height: 1.2;
+}
+
+#My Inspiration:hover{
+    transform: scale(9.0)
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+}
